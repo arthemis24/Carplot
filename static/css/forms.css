@@ -1,0 +1,117 @@
+/* 
+    Document   : forms
+    Created on : Apr 14, 2014, 12:18:12 AM
+    Author     : Kom Sihon
+    Description:
+        General display rules for forms
+*/
+form.confirm {padding: 14px}
+form>div {border: 1px solid transparent; float: left; padding-top: 9px}
+form>div:first-child {padding-top: 0}
+form label, label {float: left; font-family: arial, sans-serif; font-weight: bold; padding: 5px 0; width: 150px}
+input[type=text], input[type=password], input[type=number], input[type=email] {background: #fff; border: 1px solid #215CA0; border-radius: 2px; color: #3C3679;
+box-shadow: inset -2px 2px 3px rgba(0, 0, 0, .24); font-family: arial, sans-serif; height: 26px; padding-left: 5px; width: 300px}
+input:disabled, select:disabled {background: #fff0fc; color: #555090}
+input.unset {border-color: #FF0000}
+input[type=checkbox] {margin: 0}
+textarea {background: #fff; border: 1px solid #215CA0;border-radius: 2px; color: #3C3679;box-shadow: inset -2px 2px 3px rgba(0, 0, 0, .24); font-family: arial, sans-serif;padding-left: 5px}
+select {background: #fff; border: 1px solid #F15A24; box-shadow: inset -2px 2px 3px rgba(0, 0, 0, .24); color: #55372D; height: 26px; width: 218px}
+select:disabled {background: #FCE5DD; color: #B88A7B}
+button, .button, .qq-upload-button {border-radius: 2px; box-shadow: 0 1px 1px rgba(0, 0, 0, .1); color: #FFF; cursor: default; font-family: "Roboto Condensed", sans-serif; font-weight: 700; height: 20px;  padding: 6px 40px 4px 40px; text-align: center; text-shadow: 1px 2px 2px rgba(0, 0, 0, .15)}
+.button, .qq-upload-button {float: left}
+button {border: none; font-size: 13px; height: 30px; margin: 0}
+button:hover, .button:hover, .qq-upload-button-hover {box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, .1); text-shadow: 0 0 4px rgba(255, 255, 255, .3)}
+button:disabled, .disabled, .disabled:hover, .qq-upload-button.disabled, .qq-upload-button.disabled:hover {background: #fff0fc; border: 1px solid #F6DBFF; color: #B09BB8; cursor: default; font-weight: bold; text-align: center; text-shadow: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none}
+.ui-dialog-buttonset button, button.confirm, .button.confirm, .qq-upload-button {
+    box-shadow: inset 0 1px 0 #86cbff;
+    background: #3097ff;
+    background: -moz-linear-gradient(top,  #3097ff 0%, #2441b5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3097ff), color-stop(100%,#2441b5));
+    background: -webkit-linear-gradient(top,  #3097ff 0%,#2441b5 100%);
+    background: -o-linear-gradient(top,  #3097ff 0%,#2441b5 100%);
+    background: -ms-linear-gradient(top,  #3097ff 0%,#2441b5 100%);
+    background: linear-gradient(to bottom,  #3097ff 0%,#2441b5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3097ff', endColorstr='#2441b5',GradientType=0 );
+    border: 1px solid #001D86; border-top-color: #0F43FF; color: #fff
+}
+button.confirm:hover, .button.confirm:hover, .qq-upload-button-hover {
+    background: #59acff;
+    background: -moz-linear-gradient(top,  #59acff 0%, #2441b5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#59acff), color-stop(100%,#2441b5));
+    background: -webkit-linear-gradient(top,  #59acff 0%,#2441b5 100%);
+    background: -o-linear-gradient(top,  #59acff 0%,#2441b5 100%);
+    background: -ms-linear-gradient(top,  #59acff 0%,#2441b5 100%);
+    background: linear-gradient(to bottom,  #59acff 0%,#2441b5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59acff', endColorstr='#2441b5',GradientType=0 );
+}
+button.cta, .button.cta, .qq-upload-button {
+    box-shadow: inset 0 1px 0 #FFF5E8;
+    background: #FF7400;
+    background: -moz-linear-gradient(top,  #FFC547 0%, #FF7400 50%, #DA3A00 100%);
+    background: -webkit-linear-gradient(top,  #FFC547 0%, #FF7400 50%,#DA3A00 100%);
+    background: linear-gradient(to bottom,  #FFC547 0%, #FF7400 50%,#DA3A00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFC547 ', endColorstr='#DA3A00',GradientType=0 );
+    border: 1px solid #EF4508; border-top-color: #FFA500; clear: both; color: #fff
+}
+button.cta:hover, .button.cta:hover {
+    background: #ffcc5e;
+    background: -moz-linear-gradient(top,  #ffcc5e 0%, #ff7400 65%, #da3a00 100%);
+    background: -webkit-linear-gradient(top,  #ffcc5e 0%,#ff7400 65%,#da3a00 100%);
+    background: linear-gradient(to bottom,  #ffcc5e 0%,#ff7400 65%,#da3a00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc5e', endColorstr='#da3a00',GradientType=0 );
+}
+button.default, .button.default {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+    border: 1px solid #7394FF; color: #1746FF;
+}
+button.warning, .button.warning {background: #EA6553; background: -ms-linear-gradient(top, #EE8677, #C81A1E); background: -moz-linear-gradient(top, #EE8677, #C81A1E); background: -o-linear-gradient(top, #EE8677, #C81A1E); background: -webkit-gradient(linear, left top, left bottom, from(#EE8677), to(#C81A1E)); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEE8677, endColorstr=#FFC81A1E); border: 1px solid #D91A1F; color: #FFF
+}
+button.warning:hover, .button.warning:hover {background: #EA6553; background: -ms-linear-gradient(top, #EE8677, #C81A1E); background: -moz-linear-gradient(top, #EE8677, #C81A1E); background: -o-linear-gradient(top, #EE8677, #C81A1E); background: -webkit-gradient(linear, left top, left bottom, from(#EE8677), to(#C81A1E)); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEE8677, endColorstr=#FFC81A1E); box-shadow: 0 1px 3px rgba(0, 0, 0, .2); -moz-box-shadow: 0 1px 3px -moz-rgba(0, 0, 0, .15); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); color: #fff}
+button.default:active, .button.default:active, button.confirm:active, .button.confirm:active, button.warning:active, .button.warning:active {box-shadow: inset 0 1px 2px rgba(0, 0, 0, .15)}
+button .icon {background-size: 360px auto; height: 24px; width: 24px}
+button .icon + * {margin: 3px 0 0 6px}
+.submit-result {float: left; clear: both; height: 16px; padding: 5px}
+.working {cursor: wait}
+.success {background: #B6F1B6; border: 1px solid; color: #039B03}
+.failure {background: #FFB6C1; border: 1px solid; color:  #F00}
+
+.fancy-combo-box {float: left; padding: 0}
+.fancy-combo-box input {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1); cursor: default;
+    float: left; width: 147px
+}
+.fancy-combo-box span.arrow {
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+    border-bottom: 1px solid #215CA0; border-right: 1px solid #215CA0; border-top: 1px solid #215CA0;
+    border-top-right-radius: 2px; border-bottom-right-radius: 2px;
+    float: right; height: 32px; margin-left: -6px; width: 30px
+}
+.fancy-combo-box span.arrow span {background: url("/static/media/images/sprite.png") -129px 0; background-size: 240px;
+    float: left; height: 20px; margin: 5px 0 0 12px; width: 20px}
+.fancy-combo-box .entries-overlay {margin: -1px 0 0 -9px; max-height: 240px; overflow: hidden; padding: 10px; position: absolute; width: 150px; z-index: 100}
+.fancy-combo-box .entries {background: #fff; border: 1px solid #DBE6FF; float: left; max-height: 240px; overflow: auto; width: 100%}
+.fancy-combo-box .entry {cursor: default; padding: 5px 3px}
+.fancy-combo-box .entry:hover {background: #F4F7FF}
+.fancy-combo-box.unset input, .fancy-combo-box.unset span.arrow {border-color: #FF0000}
